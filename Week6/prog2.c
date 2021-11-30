@@ -17,14 +17,11 @@ printf("Not a Duck Number");
 {
     int store=0;
     if(n[0]=='0')
-     return store;
-    else
-    {
+     return 0;
     for(int i=0;i<length;i++)
     {
         if(n[0]!='0' && n[i]=='0')
            store = 1;
-    }
     }
     return store;
 }
