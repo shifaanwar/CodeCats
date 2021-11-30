@@ -4,7 +4,6 @@ int checkDuck(char *,int);
 int main()
 {
 char s1[100];
-char *str = s1;
 printf("Enter the number:\n");
 scanf("%s",&s1);
 int length = strlen(s1); 
