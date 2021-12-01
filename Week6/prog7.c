@@ -25,7 +25,7 @@ int checkAlmostEquivalent(char *s,char *w,int n)
         hash1[s[i]-'a']++;
         hash2[w[i]-'a']++;
     }
-    for(i=0;i<n;i++)
+    for(i=0;i<26;i++)
     {
         if(abs(hash1[i]-hash2[i])>3)
            flag=1;
