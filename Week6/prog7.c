@@ -5,7 +5,7 @@ int checkAlmostEquivalent(char *,char *,int );
 int hash1[26]={0},hash2[26]={0};
 int main() 
 {
-    char word1[200],word2[200];
+    char word1[100],word2[100];
     printf("Enter two strings\n");
     scanf("%s",word1);
     scanf("%s",word2);
