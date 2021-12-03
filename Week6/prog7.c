@@ -5,7 +5,7 @@ int checkAlmostEquivalent(char *,char *,int );
 int hash1[26]={0},hash2[26]={0};
 int main() 
 {
-    char word1[200],word2[200];
+    char word1[100],word2[100];
     printf("Enter two strings\n");
     scanf("%s",word1);
     scanf("%s",word2);
@@ -25,7 +25,7 @@ int checkAlmostEquivalent(char *s,char *w,int n)
         hash1[s[i]-'a']++;
         hash2[w[i]-'a']++;
     }
-    for(i=0;i<n;i++)
+    for(i=0;i<26;i++)
     {
         if(abs(hash1[i]-hash2[i])>3)
            flag=1;
