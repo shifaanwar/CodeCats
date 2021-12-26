@@ -16,7 +16,7 @@ void cart();
 struct user{
 	char fullName[50];
 	char email[50];
-    char address[50];
+        char address[50];
 	char password[50];
 	char username[50];
 	char phone[50];
