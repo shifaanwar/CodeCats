@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<conio.h>
-#include<windows.h>
 #include<string.h>
 #include<stdlib.h>
 void mainMenu();
@@ -59,11 +58,11 @@ void main()
 	char ch;
 	printf("*****************************************\n");
 	printf("*****************************************\n");
-    printf("*                                       *\n");
-    printf("*                                       *\n");
-	printf("*     Welcome to our shopping portal    *\n");
-    printf("*                                       *\n");
-    printf("*                                       *\n");
+        printf("*                                       *\n");
+        printf("*                                       *\n");
+        printf("*     Welcome to our shopping portal    *\n");
+        printf("*                                       *\n");
+        printf("*                                       *\n");
 	printf("*****************************************\n");
 	printf("*****************************************\n");
 	printf("press enter key to continue...\n");
@@ -134,10 +133,10 @@ f=fopen("clothes.txt","w");
         total[i] = price[i]+((gst[i]*price[i])*0.01)-((discount[i]*price[i])*0.01);
         fprintf(f,"\n%d\t\t%s\t\t%d\t\t%d%%\t\t%d%%\t\t%.2f",product_id[i],productName[i],price[i],discount[i],gst[i],total[i]);
         }
-    fclose(f);
-     char ch;
-   f=fopen("clothes.txt","r");
- do
+        fclose(f);
+       char ch;
+       f=fopen("clothes.txt","r");
+    do
     {
         ch = fgetc(f);
         putchar(ch);
@@ -168,7 +167,7 @@ void Continue()
 
 void newMenu() //new menu after login
 {
-	system("cls");
+ system("cls");
  printf("****************************************\n");
  printf("******************MENU******************\n");
  printf("*               1.Display              *\n");
@@ -184,7 +183,7 @@ void afterLogin()
  printf("\n\nEnter your choice\n");
  scanf("%d",&choice);
  int id;
-   FILE *f;
+ FILE *f;
  switch(choice)
  {
      case 1:
