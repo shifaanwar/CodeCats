@@ -17,20 +17,20 @@ public static void main(String args[])throws Exception
 	}
 	for(j=0;j<arr[0].length;j++)
 	{
-		if(j%2==0)
-		{
-			for(i=0;i<arr.length;i++)
-			{
-				System.out.println(arr[i][j]);
-			}
-		}
-		else
-		{
-			for(i=arr.length-1;i>=0;i--)
-			{
-				System.out.println(arr[i][j]);
-			}
-		}
+	if(j%2==0)
+	{
+	for(i=0;i<arr.length;i++)
+	{
+	 System.out.println(arr[i][j]);
+	}
+	}
+	else
+	{
+	for(i=arr.length-1;i>=0;i--)
+	{
+	 System.out.println(arr[i][j]);
+	}
+	}
 	}
 }
 }
