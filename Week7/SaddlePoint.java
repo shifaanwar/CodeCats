@@ -22,17 +22,17 @@ public static void main(String args[])
 	{
 	if(arr[i][j]<arr[i][least_col])	
 	{
-		least_col=j;
+	 least_col=j;
 	}
 	}
 	boolean flag = true;
 	for(k=0;k<arr.length;k++)
 	{
 	 if(arr[i][least_col]<arr[k][least_col])
-	 {
-		 flag = false;
-		 break;
-	 }
+	{
+	 flag = false;
+         break;
+	}
 	}
 	if(flag)
 	{

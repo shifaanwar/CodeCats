@@ -27,17 +27,17 @@ public static void main(String args[])
 	
 	for(row=0;row<arr.length;row++) //rotate
 	{
-		int right_index=arr.length-1;
-		int left_index=0;
-		while(left_index<right_index)
-		{
-			temp=arr[row][left_index];
-			arr[row][left_index]=arr[row][right_index];
-			arr[row][right_index]=temp;
-			right_index--;
-			left_index++;
-		}
-	}
+	 int right_index=arr.length-1;
+	 int left_index=0;
+	 while(left_index<right_index)
+	 {
+	  temp=arr[row][left_index];
+	  arr[row][left_index]=arr[row][right_index];
+	  arr[row][right_index]=temp;
+	  right_index--;
+	  left_index++;
+	 }
+	 }
 	display(arr);
 }
 public static void display(int arr[][])
