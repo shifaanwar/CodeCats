@@ -11,7 +11,7 @@ class LuckyNumber{
          {
              max = Math.max(max,arr[j][i]);
          }
-         list.add(max);
+          list.add(max);
      }
      List<Integer> list2 = new ArrayList<>();
      int min = Integer.MAX_VALUE;
